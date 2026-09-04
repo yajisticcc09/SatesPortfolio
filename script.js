@@ -1,7 +1,3 @@
-// ================================
-// CURSOR GLOW
-// ================================
-
 const glow = document.querySelector(".glow");
 
 document.addEventListener("mousemove", (e) => {
@@ -11,10 +7,6 @@ document.addEventListener("mousemove", (e) => {
 
 });
 
-
-// ================================
-// SCROLL REVEAL
-// ================================
 
 const observer = new IntersectionObserver(
 
@@ -46,11 +38,6 @@ document
 
   });
 
-
-// ================================
-// COLOR PALETTE GENERATOR
-// ================================
-
 const preview = document.getElementById("preview");
 const hex = document.getElementById("hex");
 const generate = document.getElementById("generate");
@@ -74,8 +61,6 @@ generate.addEventListener("click", () => {
 
   preview.style.background = color;
 
-
-  // Convert HSL to RGB so we can show HEX
   const temp = document.createElement("div");
 
   temp.style.color = color;
@@ -108,10 +93,6 @@ generate.addEventListener("click", () => {
 });
 
 
-// ================================
-// SMOOTH ANCHOR LINKS
-// ================================
-
 document
   .querySelectorAll('a[href^="#"]')
   .forEach((link) => {
@@ -137,10 +118,6 @@ document
     });
 
   });
-
-  /* =========================
-   DARK MODE
-========================= */
 
 const themeToggle = document.getElementById("themeToggle");
 
