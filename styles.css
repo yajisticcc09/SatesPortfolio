@@ -1,7 +1,3 @@
-/* =========================================================
-   RESET & GLOBAL
-========================================================= */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -38,11 +34,6 @@ a {
   pointer-events: none;
   z-index: -1;
 }
-
-
-/* =========================================================
-   NAVIGATION
-========================================================= */
 
 nav {
   height: 78px;
@@ -112,11 +103,6 @@ nav {
   cursor: pointer;
 }
 
-
-/* =========================================================
-   GENERAL
-========================================================= */
-
 .section {
   max-width: 1180px;
   margin: auto;
@@ -137,10 +123,6 @@ h3 {
   font-family: "Manrope";
 }
 
-
-/* =========================================================
-   HERO
-========================================================= */
 
 .hero {
   min-height: 670px;
@@ -206,11 +188,6 @@ h2 em {
 .button:hover {
   transform: translateY(-3px);
 }
-
-
-/* =========================================================
-   HERO ART
-========================================================= */
 
 .hero-art {
   height: 520px;
@@ -381,11 +358,6 @@ h2 em {
   transform: rotate(-7deg);
 }
 
-
-/* =========================================================
-   MARQUEE
-========================================================= */
-
 .marquee {
   overflow: hidden;
 
@@ -412,11 +384,6 @@ h2 em {
     transform: translateX(-50%);
   }
 }
-
-
-/* =========================================================
-   ABOUT
-========================================================= */
 
 .label {
   margin-bottom: 52px;
@@ -480,11 +447,6 @@ h2 {
   font-size: 9px;
 }
 
-
-/* =========================================================
-   SECTION HEADING
-========================================================= */
-
 .heading {
   display: flex;
 
@@ -504,11 +466,6 @@ h2 {
   font-size: 14px;
   line-height: 1.7;
 }
-
-
-/* =========================================================
-   SKILLS
-========================================================= */
 
 .skills {
   display: grid;
@@ -605,11 +562,6 @@ h2 {
 
   margin-top: 17px;
 }
-
-
-/* =========================================================
-   PROJECTS
-========================================================= */
 
 .projects {
   display: grid;
@@ -729,11 +681,6 @@ h2 {
   width: 45%;
 }
 
-
-/* =========================================================
-   SHOP / ARTIFY
-========================================================= */
-
 .shop {
   transform: rotate(3deg);
 
@@ -780,11 +727,6 @@ h2 {
   color: #10213d;
 }
 
-
-/* =========================================================
-   PROJECT INFO
-========================================================= */
-
 .project-text {
   padding: 25px 27px 29px;
 }
@@ -810,11 +752,6 @@ h2 {
 
   color: #71809a;
 }
-
-
-/* =========================================================
-   MINI PROJECT
-========================================================= */
 
 .mini {
   margin-top: 60px;
@@ -906,12 +843,6 @@ h2 {
   cursor: pointer;
 }
 
-
-/* =========================================================
-   CERTIFICATES
-   CLEANED / FIXED
-========================================================= */
-
 .certs {
   display: grid;
 
@@ -958,9 +889,6 @@ h2 {
   box-shadow: 0 18px 45px rgba(32, 93, 160, 0.1);
 }
 
-
-/* Decorative certificate circles */
-
 .paper::before,
 .paper::after {
   content: "";
@@ -987,9 +915,6 @@ h2 {
   bottom: -110px;
 }
 
-
-/* Certificate color variations */
-
 .paper.lavender {
   background: linear-gradient(
     145deg,
@@ -1005,9 +930,6 @@ h2 {
     #fbffff
   );
 }
-
-
-/* Certificate text placeholders */
 
 .paper small {
   font: 700 9px "Manrope";
@@ -1041,9 +963,6 @@ h2 {
   z-index: 2;
 }
 
-
-/* Actual certificate images */
-
 .paper img {
   position: relative;
   z-index: 3;
@@ -1057,8 +976,6 @@ h2 {
 
   border-radius: 8px;
 }
-
-/* Hide placeholder text when an actual certificate image exists */
 
 .paper:has(img) > small,
 .paper:has(img) > b,
@@ -1098,11 +1015,6 @@ h2 {
 
   border-radius: 4px;
 }
-
-
-/* =========================================================
-   EDUCATION
-========================================================= */
 
 .education {
   padding-top: 10px;
@@ -1178,11 +1090,6 @@ h2 {
   font-size: 24px;
 }
 
-
-/* =========================================================
-   CONTACT
-========================================================= */
-
 .contact {
   background: #2878e8;
 
@@ -1246,11 +1153,6 @@ h2 {
 
   color: #2878e8;
 }
-
-
-/* =========================================================
-   CONTACT LINKS
-========================================================= */
 
 .contact-links {
   display: flex;
@@ -1336,11 +1238,6 @@ h2 {
 
   font-weight: 600;
 }
-
-
-/* =========================================================
-   RESUME
-========================================================= */
 
 .resume-box {
   margin-top: 35px;
@@ -1531,11 +1428,6 @@ h2 {
   font-size: 18px;
 }
 
-
-/* =========================================================
-   DOODLE
-========================================================= */
-
 .doodle {
   position: absolute;
 
@@ -1553,11 +1445,6 @@ h2 {
 
   opacity: 0.8;
 }
-
-
-/* =========================================================
-   FOOTER
-========================================================= */
 
 footer {
   max-width: 1180px;
@@ -1589,11 +1476,6 @@ footer a {
   color: #2878e8;
 }
 
-
-/* =========================================================
-   ANIMATION
-========================================================= */
-
 .reveal {
   opacity: 0;
 
@@ -1607,11 +1489,6 @@ footer a {
 
   transform: none;
 }
-
-
-/* =========================================================
-   TABLET
-========================================================= */
 
 @media (max-width: 850px) {
 
@@ -1671,11 +1548,6 @@ footer a {
     right: 8%;
   }
 }
-
-
-/* =========================================================
-   MOBILE
-========================================================= */
 
 @media (max-width: 600px) {
 
@@ -1791,11 +1663,6 @@ footer a {
 
 }
 
-
-/* =========================================================
-   EXTRA SMALL SCREENS
-========================================================= */
-
 @media (max-width: 400px) {
 
   .hero h1 {
@@ -1837,10 +1704,6 @@ footer a {
 
 }
 
-/* =========================
-   DARK MODE TOGGLE
-========================= */
-
 .theme-toggle {
   width: 42px;
   height: 42px;
@@ -1861,11 +1724,6 @@ footer a {
   transform: rotate(15deg) scale(1.08);
   background: #edf6ff;
 }
-
-
-/* =========================
-   DARK THEME
-========================= */
 
 body.dark-mode {
   background: #0b1220;
@@ -1899,9 +1757,6 @@ body.dark-mode .theme-toggle:hover {
   background: #203451;
 }
 
-
-/* Text */
-
 body.dark-mode h1,
 body.dark-mode h2,
 body.dark-mode h3,
@@ -1916,8 +1771,6 @@ body.dark-mode .eyebrow {
   color: #79b8ff;
 }
 
-
-/* Skills */
 
 body.dark-mode .skill {
   background: #111d30;
@@ -1937,8 +1790,6 @@ body.dark-mode .skill i {
 }
 
 
-/* Projects */
-
 body.dark-mode .project {
   background: #111d30;
   border-color: #243752;
@@ -1953,8 +1804,6 @@ body.dark-mode .project-text i {
 }
 
 
-/* Mini Project */
-
 body.dark-mode .mini {
   background: #111d30;
   border-color: #243752;
@@ -1964,8 +1813,6 @@ body.dark-mode .mini p {
   color: #aebfd4;
 }
 
-
-/* Certificates */
 
 body.dark-mode .paper {
   background: linear-gradient(145deg, #172942, #0f1b2d);
@@ -1977,8 +1824,6 @@ body.dark-mode .certs h3 {
 }
 
 
-/* Education */
-
 body.dark-mode .edu {
   background: #111d30;
   border-color: #243752;
@@ -1987,9 +1832,6 @@ body.dark-mode .edu {
 body.dark-mode .edu p {
   color: #aebfd4;
 }
-
-
-/* Resume */
 
 body.dark-mode .resume-box {
   background: #111d30;
@@ -2004,9 +1846,6 @@ body.dark-mode .resume-paper {
   background: #edf6ff;
   color: #15243a;
 }
-
-
-/* Contact */
 
 body.dark-mode .contact {
   background: #0e192b;
@@ -2025,9 +1864,6 @@ body.dark-mode .contact-links a:hover {
   background: #1b304c;
 }
 
-
-/* Footer */
-
 body.dark-mode footer {
   background: #080e18;
   border-top-color: #1d2d43;
@@ -2036,9 +1872,6 @@ body.dark-mode footer {
 body.dark-mode footer span {
   color: #8fa4bd;
 }
-
-
-/* Smooth transition */
 
 body,
 nav,
@@ -2057,7 +1890,6 @@ nav,
     box-shadow 0.35s ease;
 }
 
-/* Hero Resume Button */
 
 .resume-hero {
   display: inline-flex;
@@ -2078,9 +1910,6 @@ nav,
   border-color: #bcdcff;
   box-shadow: 0 10px 25px rgba(40, 120, 232, 0.1);
 }
-
-
-/* Dark Mode */
 
 body.dark-mode .resume-hero {
   background: #111d30;
